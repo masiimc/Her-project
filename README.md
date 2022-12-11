@@ -17,7 +17,7 @@ here,s the html section with commenting:
 portfilio gallery![Shot 0014](https://user-images.githubusercontent.com/116202175/206896628-b610252f-5227-4469-8a93-fb3982b99776.png)
 
 
-#Dropdown menu
+# Dropdown menu
 
 the menu is nested dropdown  and here's the code:
 
@@ -27,4 +27,4 @@ the menu is nested dropdown  and here's the code:
 
 
 
-#demo of the project :
+# demo of the project :
