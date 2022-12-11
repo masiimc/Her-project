@@ -1,0 +1,181 @@
+.navigation>.menu>li>a:hover , 
+.navigation>.menu>.dropdown .dropbtn:hover ,
+.navigation>.menu>.dropdown:hover>.dropbtn {
+    color: #3a0cb8;
+    cursor: pointer;
+} 
+
+.navigation>.menu>li:nth-child(8)>a:hover{
+    background-color: #3a0cb8;
+    color: #fff;
+}
+
+.dropdown>.dropdown_content a:hover ,
+.dropdown>.dropdown_content .dropbtn:hover ,
+.inner>div>h4:hover{
+   color: #765eb8;
+}
+
+.dropdown:hover .dropdown_content{
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+}
+
+.dpdn:hover .dpdn_content{
+    transform: translate(-170px,-30px);
+    opacity: 1;
+    visibility: visible;
+}
+
+#home>.row>div>.box>a:first-child:hover{
+    background-color: #4d1dcf;
+}
+
+.logo>.row>div>img:hover{transform: scale(1.5);}
+
+#about>.row>.box>a:hover{
+    background-color: #3a0cb8;
+    color: #fff;
+}
+
+.eum>.row>div>.part_2>div>button:hover , footer>.row>.footer>li>a:hover{color: #765eb8;}
+
+#services>.row>div>div:hover , #team>.row>.inner>.card:hover{transform: translateY(-15px);}
+
+#portfilio>.row>.inner>.item>img:hover{
+    transform: scale(1.2);
+}
+
+#portfilio>.row>.inner>.item:hover>div{
+    opacity: 1;
+    visibility: visible;
+}
+
+.call>div>a:hover {
+    background-color: #765eb8;
+    border-color: #765eb8;
+}
+.pricing>.row>.inner>.plan>.mark>a:hover{
+    background-color: #765eb8;
+    color: #fff;
+}
+.pricing>.row>.inner>.plan:nth-of-type(2)>.mark>a:hover ,
+#contact>.row>.inner>.contact_2>a:hover{
+    background-color: #624e99;
+}
+
+#contact>.row>.inner>.contact_2>input:focus , #contact>.row>.inner>.contact_2>textarea:focus{
+    border: 1px solid #765eb8;
+}
+@keyframes her_up {
+    0% {transform: translateY(25px);}
+    100% {transform: translateY(7px);}
+}
+
+@media screen  and (max-width:414px){
+    .navigation>h2{
+        margin-left: 10px;
+        padding: 10px 0;
+    }
+    .navigation>.menu{margin-right: 10px;}
+    .navigation>.menu>li{display: none;}
+    .navigation>.menu>li:last-child{display: block;}
+    #home{
+        height: 100vh;
+    }
+    #home>.row>div{
+        width: 80%;
+        height: 50%;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    #home>.row>div:first-child{order: 1;}
+    #home>.row>div>h1{font-size: 1.7em;}
+    #home>.row>div>p{font-size: 1.1em;}
+    #home>.row>div:last-child{align-content: flex-end;}
+    #home>.row>div>img{
+        animation: none;
+        transform: translateY(0);
+    }
+    .logo{padding: 10px 0;}
+    .logo>.row{width: 100%;}
+    .logo>.row>div{width: 50%;}
+    .logo>.row>div>img{width: 35%;}
+    #about>.row{
+        width: 100%;
+        padding: 0 10px;
+    }
+    #about>.row>.box{width: 100%;}
+    #about>.row>.box:first-of-type{margin-bottom: 2.5em;}
+    .eum>.row , .voluptatem>.row , #services>.row , #portfilio>.row , #team>.row , #contact>.row , footer>.row{
+        width: 95%;
+    }
+    .eum>.row>div{width: 100%;}
+    .eum>.row>div:last-of-type{
+        height: 300px;
+        order: -1;
+    }
+    .eum>.row>div:first-of-type{padding-left: 0;}
+    .eum>.row>div>.part_2>div>button>i:last-of-type{top: 0;}
+    .voluptatem{padding: 60px 0;}
+    .voluptatem>.row{padding: 0;}
+    .voluptatem>.row>div{padding:16px 0;}
+    .voluptatem>.row>div:first-of-type{height: 200px;}
+    #services{padding: 50px 0;}
+    #services>.row{padding: 0;}
+    .inner{
+        width: 100%;
+        padding: 0 5px;
+    }
+    .inner>div{flex: 100%;}
+    .call{
+        padding: 100px 0px;
+        justify-content: center;
+    }
+    .call>div{
+        flex: 100%;
+        text-align: center;
+    }
+    .call>div>h2{ width: 100%;}
+    .call>div>a{ padding: 15px 40px;}
+    #portfilio{padding: 60px 0;}
+    #portfilio>.row>.inner{
+        display: block;
+        padding:10px 0;
+    }
+    #portfilio>.row>.inner>.item{margin: 20px 0;}
+    #team{padding:50px 0;}
+    #team>.row>.inner>.card{width: 100%;}
+    #team>.row>.inner>.card>.img{
+        background-size: 80% 50% !important;
+        background-position: top;
+        clip-path: circle(30%);
+    }
+    .pricing{ padding: 60px 0;}
+    .pricing>.row{ width: 95%;}
+    .pricing>.row>.inner>.plan{ width: 100%;}
+    #contact{padding: 60px 0;}
+    #contact>.row>.inner>div{
+        width: 100%;
+        margin: 20px 0;
+    }
+    #contact>.row>.inner>.contact_2>input{width: 100%;}
+    #contact>.row>.inner>.contact_2>label:nth-of-type(2){order: 1;}
+    #contact>.row>.inner>.contact_2>input[type="mail"]{
+        order: 2;
+        margin-left: 0;
+    }
+    #contact>.row>.inner>.contact_2>label:nth-of-type(3){order: 3;}
+    #contact>.row>.inner>.contact_2>input:nth-of-type(3){order: 4;}
+    #contact>.row>.inner>.contact_2>label:last-of-type{order: 5;}
+    #contact>.row>.inner>.contact_2>textarea{order: 6;}
+    #contact>.row>.inner>.contact_2>a{order: 7;}
+    footer{padding: 60px 0;}
+    footer>.row>div , footer>.row>.footer{
+        width: 100%;
+        padding:0 ;
+        margin: 20px 0;
+        }
+}
